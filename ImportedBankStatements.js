@@ -31,9 +31,9 @@
     + "&statementLineID=" 
     + lineId;
 
-    // Get the 4th column of this row
+    // Get the 3th column of this row (Payee)
     for(var cell of [].slice.call(item.querySelectorAll("td")).slice(3, 4)) {
-      // stop the default Xero redirection happening when we click
+      // stop the default Xero redirection happening when we click this cell
       cell.addEventListener("click", 
         function(e) {
           e.stopPropagation();
@@ -46,7 +46,7 @@
       // Set the text of the new link to this cell's text value
       newlink.textContent = cell.innerText;
       
-      // Add the link to this cell, remove existing text
+      // Add the link to this cell and remove the existing text
       cell.innerText = '';
       cell.appendChild(newlink);
     }
