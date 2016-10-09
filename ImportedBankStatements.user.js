@@ -1,3 +1,7 @@
+// ==UserScript==
+// @match https://go.xero.com/Bank/Statements.aspx
+// ==/UserScript==
+
 // Replaces reconcilled Statement Line Payee names with a plain HTML link
 // This allows you to open the corresponding statement in a new window, 
 // without losing your place
