@@ -2,6 +2,8 @@
 Scripts to improve Xero
 
 # Imported Bank Statements
+<a href="https://github.com/JMontagu/Xero-Scripts/blob/master/ImportedBankStatements.user.js" download>Install</a>
+
 Before:
 <img width="1164" alt="screen shot 2016-10-08 at 4 04 24 pm" src="https://cloud.githubusercontent.com/assets/567825/19213975/0888b30c-8d71-11e6-9e00-b167102e7b11.png">
 After:
