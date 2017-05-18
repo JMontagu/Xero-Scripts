@@ -2,6 +2,8 @@
 Scripts to improve your Xero experience!
 
 # Imported Bank Statements
+Makes Reconcilled statements 'linkable', allowing you to open them in a new tab/window.
+
 <a href="https://github.com/JMontagu/Xero-Scripts/raw/master/ImportedBankStatements.user.js" download>Install</a>
 
 ### Before:
@@ -9,8 +11,6 @@ Scripts to improve your Xero experience!
 
 ### After:
 <img width='1000' alt="screen shot 2016-10-08 at 4 04 36 pm" src="https://cloud.githubusercontent.com/assets/567825/19213977/0c6be07a-8d71-11e6-9d7d-2feebf7a2600.png">
-
-Makes Reconcilled statements 'linkable', allowing you to open in a new tab/window.
 
 # Use
 To use, install the script as a bookmarklet, then simply click the bookmark when you want to enable.
