@@ -24,7 +24,7 @@
 
   // Looks at each parent for matching class and returns it
   function findParentByClass(element, className) {
-    return element.className.split(' ').includes(className) ? element : findParent(element.parentElement, className);
+    return element.className.split(' ').includes(className) ? element : findParentByClass(element.parentElement, className);
   }
 
   function waitFor(selector, maxWaitTime = 1000) {
@@ -63,7 +63,6 @@
       .catch(console.error);
   }
 
-  //
   function toggleBankRec(bankrecSearchForm, lineItemContainer) {
     var [
       transactionType,
