@@ -1,5 +1,5 @@
 # Xero-Scripts
-Scripts to improve your Xero experience!
+<a href="https://tampermonkey.net/">TamperMonkey</a> compatible scripts to improve your Xero experience!
 
 ## Imported Bank Statements
 Makes Reconcilled statements 'linkable', allowing you to open them in a new tab/window.
