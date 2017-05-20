@@ -4,6 +4,10 @@
 // @version      1.0.0
 // @description  Automatically filters BankRec matches by transaction name. If common 'overseas' transactions are found, it will also uncheck the 'Show {currency} items only'
 // @author       Nick Whiteside, Jade Montagu
+// @homepage     https://github.com/jmontagu/xero-scripts
+// @updateURL    https://github.com/JMontagu/Xero-Scripts/raw/master/xero-bankrec-helper.user.js
+// @downloadURL  https://github.com/JMontagu/Xero-Scripts/raw/master/xero-bankrec-helper.user.js
+// @supportURL   https://github.com/JMontagu/Xero-Scripts/issues
 // @match        https://go.xero.com/Bank/BankRec.aspx*
 // @grant        none
 // ==/UserScript==
